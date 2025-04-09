@@ -17,6 +17,15 @@ Create an object called `person` with these properties:
 
 ```javascript
 // your code here
+// bikin objek orang
+const person = {
+  name: "John",
+  age: 25,
+  job: "Developer"
+};
+
+console.log(person);
+
 ```
 
 ---
