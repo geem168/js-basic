@@ -16,6 +16,7 @@ Create an array called `fruits` that contains:
 ```javascript
 // your code here
 const fruits = ["Apple", "Banana", "Orange"];
+
 ```
 
 ---
@@ -124,6 +125,7 @@ Example output → `"Apple,Banana,Orange"`
 ```javascript
 // your code heree
 const fruitsString = fruits.join(",");
+console.log(fruitsString);
 ```
 
 ---
