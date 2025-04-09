@@ -17,7 +17,8 @@ function calculate_parking_fee(vehicle_type, duration) {
     let total_price = first_hour + (duration - 1) * next_hour;
 
     // Jika durasi lebih dari 24 jam, tambahkan biaya ekstra
-    if (duration > 24) {
+    const one_day = 24;
+    if (duration > one_day) {
         total_price += extra_charge;
     }
 
