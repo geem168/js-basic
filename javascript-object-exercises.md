@@ -19,12 +19,10 @@ Create an object called `person` with these properties:
 // your code here
 // bikin objek orang
 const person = {
-  name: "John",
+  nama: "John",
   age: 25,
   job: "Developer"
 };
-
-console.log(person);
 
 ```
 
@@ -38,6 +36,9 @@ Use `console.log` to display:
 
 ```javascript
 // your code here
+console.log(person.nama);
+console.log(person.job);
+
 ```
 
 ---
@@ -48,6 +49,7 @@ Add a new property called `hobby` with value `"Reading"` to the `person` object.
 
 ```javascript
 // your code here
+person.hobby = "Reading";
 ```
 
 ---
@@ -58,6 +60,7 @@ Change the `age` of `person` to `30`.
 
 ```javascript
 // your code here
+person.age = 30;
 ```
 
 ---
@@ -68,6 +71,7 @@ Remove the `job` property from the `person` object.
 
 ```javascript
 // your code here
+delete person.job;
 ```
 
 ---
@@ -88,6 +92,18 @@ Print `student`'s city.
 
 ```javascript
 // your code here
+const student = {
+  name: "Alice",
+  grade: 90,
+  address: {
+    city: "Jakarta",
+    country: "Indonesia"
+  }
+};
+
+// tampilkan kota
+console.log(student.address.city);
+
 ```
 
 ---
@@ -102,6 +118,14 @@ Then call it.
 
 ```javascript
 // your code here
+
+  person.greet: function () {
+    return "Hi, my name is " + this.name;
+  }
+
+
+// panggil method greet
+console.log(person.greet());
 ```
 
 ---
