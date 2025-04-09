@@ -93,7 +93,7 @@ Print `student`'s city.
 ```javascript
 // your code here
 const student = {
-  name: "Alice",
+  nama: "Alice",
   grade: 90,
   address: {
     city: "Jakarta",
@@ -120,7 +120,7 @@ Then call it.
 // your code here
 
   person.greet: function () {
-    return "Hi, my name is " + this.name;
+    return `Hi, my name is ${this.nama}`
   }
 
 
